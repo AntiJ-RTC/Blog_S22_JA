@@ -1,12 +1,10 @@
-body{
+*{
     background-color: #355970;
-}
-html{
     font-family: Arial, Helvetica, sans-serif;
 }
 #navigation ul{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
     height: 20px;
 }
 #navigation a{
@@ -21,30 +19,18 @@ html{
     background-color: #65ABD6;
     color: aliceblue;
     text-decoration: none;
+    transition: background-color 0.25s, color 0.25s;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 0 0 black;
 }
 .nav-Button:hover{
-    transition: background-color 0.5s;
     background-color: #74C6FC;
+    color: aquamarine;
 }
 #blog{
     text-align: center;
 }
 .blogTitle{
-    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: aliceblue
 }
-#hero-image{
-    height: 200px;
-    background-image: url();
-    background-size: cover;
-    background-position-y: -30px;
-
-}
-
-/* .nav-Button{
-    border: 2px solid white;
-    text-align: center;
-    color: white;
-} */
