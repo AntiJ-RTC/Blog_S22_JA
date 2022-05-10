@@ -26,8 +26,12 @@
     background-color: #74C6FC;
     color: white;
 }
+#hero-image{
+    margin: 10px;
+}
 #blog{
     text-align: center;
+    color: aliceblue;
 }
 .blogTitle{
     margin-top: 30px;
