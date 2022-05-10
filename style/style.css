@@ -26,6 +26,9 @@
     background-color: #74C6FC;
     color: white;
 }
+#hero-image{
+    margin: 10px;
+}
 #blog{
     text-align: center;
 }
@@ -33,4 +36,20 @@
     margin-top: 30px;
     margin-bottom: 10px;
     color: aliceblue
+}
+.blogBody{
+    border: 1px solid white;
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+.blogs{
+    border: 1px solid white;
+
+}
+.sidebar{
+    border: 1px solid white;
+
 }
