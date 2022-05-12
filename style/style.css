@@ -36,7 +36,9 @@ h2, h4, p{
     margin: 10px;
 }
 #blogImages{
-    width: 90%;
+    width: 100%;
+    border: 2px dotted aliceblue;
+    background-color: white;
 }
 .blogTitle{
     text-align: center;
@@ -47,15 +49,12 @@ h2, h4, p{
 .blogContainer{
     color: aliceblue;
     width: 80%;
-    margin: 0 auto;
-}
-.blogBody{
-    color: aliceblue;
     display: block;
+    margin: 0 auto;
 }
 .blogs{
     border: 1px solid white;
-    height: 300px;
+    height: 50%;
     display: grid;
     grid-template-columns: 75% auto;
     padding: 10px;
@@ -65,14 +64,14 @@ h2, h4, p{
     padding: 10px;
 }
 .readMore{
+    padding: 5px;
     font-size: 1.0rem;
     text-align: center;
     background-color: #65ABD6;
     color: aliceblue;
     text-decoration: none;
     transition: background-color 0.25s, color 0.25s;
-    border-radius: 10px 10px 10px 10px;
-    padding: 5px;
+    border-radius: 10px 10px 10px 10px;    
 }
 .readMore:hover{
     background-color: #74C6FC;
