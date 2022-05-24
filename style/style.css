@@ -20,6 +20,7 @@ p{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
+
 #navigation a{
     display: block;
     padding: 10px;
@@ -29,15 +30,20 @@ p{
 .nav-Button{
     font-size: 1.2rem;
     text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
     background-color: #65ABD6;
+    box-shadow: -2px 2px 2px #222222;
     color: aliceblue;
     text-decoration: none;
-    transition: background-color 0.25s, color 0.25s;
-    border-radius: 0 0 10px 10px;
+    transition: background-color 0.15s, color 0.15s, margin 0.15s ease-in;
+    border-radius: 10px;
 }
 .nav-Button:hover{
     background-color: #74C6FC;
     color: white;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #hero-image{
@@ -94,14 +100,13 @@ p{
     font-size: small;
 }
 .readMore{
-    padding: 5px;
-    font-size: 1.2rem;
+    padding: 0px 5px 0px 5px;
     text-align: center;
     background-color: #65ABD6;
     color: aliceblue;
     text-decoration: none;
     transition: background-color 0.25s, color 0.25s;
-    border-radius: 5px;    
+    border-radius: 2px;    
 }
 .readMore:hover{
     background-color: #74C6FC;
